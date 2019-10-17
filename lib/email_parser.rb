@@ -4,7 +4,8 @@
 # or whitespace (' ').
 class EmailAddressParser
 
-  def parse
-
+  def parse(emails)
+    email_array = []
+    email_array = emails.split(", ")
   end
 end
