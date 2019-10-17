@@ -5,8 +5,8 @@
 class EmailAddressParser
   attr_accessor :emails
 
-  def parse(emails)
+  def parse
     email_array = []
-    email_array = emails.split
+    email_array = @emails.split
   end
 end
