@@ -10,6 +10,6 @@ class EmailAddressParser
 
   def parse(emails)
     email_array = []
-    email_array = emails.split(", ")
+    email_array = emails.split
   end
 end
