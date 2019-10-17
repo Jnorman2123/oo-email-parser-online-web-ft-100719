@@ -11,6 +11,6 @@ class EmailAddressParser
 
   def parse
     emails = @emails.split(/,? /)
-    emails.uniq!
+    emails.uniq
   end
 end
