@@ -8,8 +8,8 @@ class EmailAddressParser
 
   end
 
-  def parse(emails)
-    email_array = []
-    email_array = emails.split
-  end
+  # def parse(emails)
+  #   email_array = []
+  #   email_array = emails.split
+  # end
 end
